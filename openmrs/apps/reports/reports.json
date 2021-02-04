@@ -63,6 +63,15 @@
     }
    },
    
+   "art_with_regimen": {
+    "name": "Current on ART with regimens (Pivot)",
+    "type": "MRSGeneric",
+    "config": {
+      "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/includeregimen_pivot.sql"
+   }
+  },
+
+
  "viralloadresultsstatuslist": {
      "name": "Viral Load Results Status, within 3 months (List)",
      "type": "MRSGeneric",
@@ -747,5 +756,13 @@
       "config": {
           "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/txpvls_denominator_pivot.sql"
       }
-  }
+  },
+
+  "arv_dispensary": {
+    "name": "ARV Monthly Dispensary Report(Pivot)",
+    "type": "MRSGeneric",
+    "config": {
+        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/arv_monthly_dispensary.sql"
+    }
+}
 }
